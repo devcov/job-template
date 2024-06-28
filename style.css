@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+/* -------------------- header ------------------------------------------------*/
+
+.menu-bar
+{
+   
+}
+
+.nav-link
+{
+    font-size: 16px;
+    margin: 2px;
+}
+
+
+.menu-bar span {
+    color: red;
+    font-size: larger;
+}
+
+.menu-bar span:hover{
+    color: black;
+    font-size: x-large;
+    
+
+}
+
+.navbar-nav
+{
+    text-align: right;
+}
+
+.menu-bar .navbar-toggler
+{
+    padding-right: 0;
+    outline: none;
+    border: none;
+}
+
+.banner
+{
+    height: 80vh;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(images/imageone.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.banner h1
+{
+    padding-top: 170px;
+    font-size: 50px;
+    letter-spacing: 6px;
+    font-weight: 600;
+    text-shadow: 0 0 30px black;
+}
+
+.search-job
+{
+    padding: 30px 0;
+    margin: -50px 6% 50px;
+
+    background-image: linear-gradient(to right ,blue , aqua);
+
+}
+
+.search-job .form-control
+{
+    max-width: 250px;
+    display: inline-flex;
+    margin: 10px 5px;
+    border-radius: 0;
+
+    box-shadow: none !important;
+    border: none !important;
+}
+
+.search-job .btn-primary
+{
+    border-radius: 0;
+    box-shadow: none !important;
+    border: none;
+    display: inline-flex;
+    margin: 5px;
+    padding: 5px 20px;
+}
+
+
+
+/* -------------------- recuiters ------------------------------------------------*/
