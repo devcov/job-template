@@ -87,9 +87,55 @@
     border: none;
     display: inline-flex;
     margin: 5px;
-    padding: 5px 20px;
+    padding: 5px 50px;
 }
 
 
 
 /* -------------------- recuiters ------------------------------------------------*/
+
+#recuiters
+{
+    padding-top:50px ;
+
+    padding-bottom:100px ;
+}
+
+#recuiters h3{
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+h3::before 
+{
+    content: '';
+    background-image: linear-gradient(to right ,blue , aqua);
+    width: 50px;
+    height: 30px;
+    position: absolute;
+    z-index: -10;
+    margin-top: -15px;
+    border-top-left-radius: 70px;
+    border-bottom-right-radius: 90px;
+
+}
+
+#recuiters img{
+    max-width: 100px;
+    margin: 10px 20px;
+
+}
+
+
+
+/* -------------------- recent jobs ------------------------------------------------*/
+
+#jobs
+{
+    background: gainsboro;
+    padding: 50px 0;
+}
+
+
+
+
