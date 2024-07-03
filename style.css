@@ -136,6 +136,183 @@ h3::before
     padding: 50px 0;
 }
 
+.company-details
+{
+    box-shadow: 0 2px 70px 0 rgba(21, 5, 58, 0.18);
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.job-update
+{
+    background: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.job-update  .fa-solid{
+    margin-top: 5px;
+    margin-right: 10px;
+    color: #77d1b1;
+}
+
+
+.job-update small
+{
+    background: #efefef;
+    padding: 1px 5px;
+    margin: 0 5px;
+}
+
+.job-update p
+{
+    margin-bottom: 0  !important;
+}
+
+.job-update a
+{
+    text-decoration: none;
+    color:  aqua;
+    float: right;
+}
+
+.apply-btn 
+{
+    height: 40px;
+    background-image: linear-gradient(to right ,blue , aqua);
+    padding: 7px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+}
+
+.apply-btn .btn-primary
+{
+    padding:  0 30px;
+    float: right;
+    border-radius: 0;
+    box-shadow: none  !important;
+    background: transparent;
+    border: 2px solid white;
+}
+
+.apply-btn .btn-primary:hover
+{
+    padding:  0 30px;
+    float: right;
+    border-radius: 0;
+    box-shadow: none  !important;
+    background: blue;
+    border: 2px solid white; 
+
+}
+
+.pagelink li
+{
+    height: 25px;
+    width: 25px;
+    list-style: none;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.pagelink li:hover, .active 
+{
+    background-color: blue;
+    color: white;
+}
+
+.left-arrow
+{
+    color: #999;
+}
+
+.right-arrow
+{
+    color: #29b929;
+}
+
+
+/* ------------------------- SITE STATS ----------------------------------- */
+
+
+#site-stats
+{
+    padding: 100px 0;
+}
+
+#site-stats h3
+{
+    margin-bottom: auto;
+}
+
+.stats-box
+{
+    padding: 30px;
+    border-radius: 10px;
+    margin: 20px 0;
+    box-shadow: 0 2px 40px 0 rgb(110, 130, 208, .18);
+
+}
+
+
+.stats-box .fa{
+    font-size: 30px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+
+/* ------------------------- app banner ----------------------------------- */
+
+#app-banner
+{
+
+    background-image: linear-gradient(to right ,blue , aqua);
+    padding: 50px 0;
+
+
+}
+
+#app-banner h1
+{
+    margin-top: 20px;
+    color: white;
+
+}
+
+#app-banner img
+{
+    width:300px;
+    height: 100px;
+    margin: 10px;
+
+}
+
+
+/* ------------------------- footer ----------------------------------- */
+
+
+#footer
+{
+
+    background-color: black;
+   
+
+}
+
+
+.foot
+{
+
+    width: 500px ;
+    color: white;
+    
+}
+
+
+
+
 
 
 
